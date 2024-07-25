@@ -18,8 +18,8 @@ const ApplyForRechecking = () => {
   return (
     <div className="min-h-screen flex flex-col justify-between">
     <main className="flex-grow">
-      <div className="px-1 ml-2">
-        <h1 className="text-blue-600 text-3xl">Rechecking Application</h1>
+      <div>
+        <h1 className="text-blue-600 text-3xl mr-2">Rechecking Application</h1>
         <h1 className="text-blue-600 text-3xl mb-8">Form</h1>
         <div className="text-gray-700 space-y-2 border-b-2 border-gray-200 pb-8 mb-12">
           <div> {tickIcon} Institution: <span className="font-semibold"><b>Amity Institute of Information Technology, Kolkata</b></span></div>
@@ -53,12 +53,12 @@ const ApplyForRechecking = () => {
                 <div className="border-b-2 border-gray-100 ">
                   <div className="px-4 py-1 mr-20 grid grid-cols-3 gap-4 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Grade Obtained</dt>
-                  <dd className="text-sm text-gray-900">B+</dd>
+                  <dd className="text-sm text-gray-900 ml-4">B+</dd>
                   </div>
                 </div>
                 <div className="px-4 py-1 grid grid-cols-3 gap-4 mr-20 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Status of Application</dt>
-                  <dd className="text-sm text-green-600 col-span-1">Applied & Paid</dd>
+                  <dd className="text-sm text-green-600 col-span-1 ml-4">Applied & Paid</dd>
                 </div>
               </dl>
             </div>
@@ -84,12 +84,12 @@ const ApplyForRechecking = () => {
                 <div className="border-b-2 border-gray-100 ">
                   <div className="px-4 py-1 mr-20 grid grid-cols-3 gap-4 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Grade Obtained</dt>
-                  <dd className="text-sm text-gray-900">A</dd>
+                  <dd className="text-sm text-gray-900 ml-4">A</dd>
                   </div>
                 </div>
                 <div className="px-4 py-1 grid grid-cols-3 gap-4 mr-20 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Status of Application</dt>
-                  <dd className="text-sm text-green-600 col-span-1">Applied & Paid</dd>
+                  <dd className="text-sm text-green-600 col-span-1 ml-4">Applied & Paid</dd>
                 </div>
               </dl>
             </div>
@@ -115,12 +115,12 @@ const ApplyForRechecking = () => {
                 <div className="border-b-2 border-gray-100 ">
                   <div className="px-4 py-1 mr-20 grid grid-cols-3 gap-4 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Grade Obtained</dt>
-                  <dd className="text-sm text-gray-900">A</dd>
+                  <dd className="text-sm text-gray-900 ml-4">A</dd>
                   </div>
                 </div>
                 <div className="px-4 py-1 grid grid-cols-3 gap-4 mr-20 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Status of Application</dt>
-                  <dd className="text-sm text-green-600 col-span-1">Applied & Paid</dd>
+                  <dd className="text-sm text-green-600 col-span-1 ml-4">Applied & Paid</dd>
                 </div>
               </dl>
             </div>
@@ -146,12 +146,12 @@ const ApplyForRechecking = () => {
                 <div className="border-b-2 border-gray-100 ">
                   <div className="px-4 py-1 mr-20 grid grid-cols-3 gap-4 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Grade Obtained</dt>
-                  <dd className="text-sm text-gray-900">B+</dd>
+                  <dd className="text-sm text-gray-900 ml-4">B+</dd>
                   </div>
                 </div>
                 <div className="px-4 py-1 grid grid-cols-3 gap-4 mr-20 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Status of Application</dt>
-                  <dd className="text-sm text-green-600 col-span-1">Applied & Paid</dd>
+                  <dd className="text-sm text-green-600 col-span-1 ml-4">Applied & Paid</dd>
                 </div>
               </dl>
             </div>
@@ -177,12 +177,12 @@ const ApplyForRechecking = () => {
                 <div className="border-b-2 border-gray-100 ">
                   <div className="px-4 py-1 mr-20 grid grid-cols-3 gap-4 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Grade Obtained</dt>
-                  <dd className="text-sm text-gray-900">A+</dd>
+                  <dd className="text-sm text-gray-900 ml-4">A+</dd>
                   </div>
                 </div>
                 <div className="px-4 py-1 grid grid-cols-3 gap-4 mr-20 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Status of Application</dt>
-                  <dd className="text-sm text-black col-span-1">Click to Apply</dd>
+                  <dd className="text-sm text-black col-span-1 ml-4">Click to Apply</dd>
                 </div>
               </dl>
             </div>
@@ -208,12 +208,12 @@ const ApplyForRechecking = () => {
                 <div className="border-b-2 border-gray-100 ">
                   <div className="px-4 py-1 mr-20 grid grid-cols-3 gap-4 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Grade Obtained</dt>
-                  <dd className="text-sm text-gray-900">B+</dd>
+                  <dd className="text-sm text-gray-900 ml-4">B+</dd>
                   </div>
                 </div>
                 <div className="px-4 py-1 grid grid-cols-3 gap-4 mr-20 sm:px-6">
                   <dt className="text-sm font-medium text-black col-span-2">Status of Application</dt>
-                  <dd className="text-sm text-black col-span-1">Click to Apply</dd>
+                  <dd className="text-sm text-black col-span-1 ml-4">Click to Apply</dd>
                 </div>
               </dl>
             </div>

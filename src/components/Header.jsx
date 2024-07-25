@@ -30,7 +30,7 @@ function Header() {
   return (
     <>
       {/* Fix the header to the top */}
-      <div className="bg-yellow-400 px-4 pb-4 pt-1 flex justify-between items-center fixed w-full z-50 top-0 left-0">
+      <div className="bg-yellow-500 px-4 pb-4 pt-1 flex justify-between items-center fixed w-full z-50 top-0 left-0">
         <div className="flex items-center space-x-2 mb-10">
           <button
             className="text-white text-xl border-0 bg-blue-800 px-3 py-1 mr-2 mb-2 rounded-md"
@@ -49,7 +49,7 @@ function Header() {
       </div>
       {/* Adjust the top margin to prevent content from being hidden underneath the fixed header */}
       <div className="flex items-center bg-blue-800 h-16 fixed w-full z-50 top-14 left-0">
-        <div className="text-white text-lg ml-4">Amity University Kolkata</div>
+        <div className="text-white text-lg ml-1">Amity University Kolkata</div>
         <div className="relative ml-20">
           <span className="absolute top-0 right-0 block h-2 w-2 bg-red-600 rounded-full"></span>
           <i className="fas fa-bell text-white"></i>
